@@ -42,7 +42,7 @@ export default function Features() {
                 <Grid key={i} item xs={12} md={6} lg={6}>
                   <FeatureBox>
                     <Box textAlign="center">
-                      <a target="_blank" href={i.link}>
+                      <a target="blank" href={i.link}>
 
                       <Box >
                         {" "}
