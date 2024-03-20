@@ -116,16 +116,6 @@ export const TestBox = styled(Box)`
   }
 `;
 
-export const TestiTypo = styled(Typography)`
-  font-size: 30px;
-  font-weight: 700;
-`;
-
-export const CompanyTypo = styled(Typography)`
-  font-size: 20px;
-  font-weight: 500;
-`;
-
 export const TestiCard = styled(Box)`
 border: 1px solid #CBD5E0;
 width: 80%;

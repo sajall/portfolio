@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
-import { Box, Button, Typography, useMediaQuery } from "@mui/material";
-import { TestiTypo, CompanyTypo, TestiCard } from "../Home/HomeStyle";
+import { Box, useMediaQuery } from "@mui/material";
+import { TestiCard } from "../Home/HomeStyle";
 import "swiper/css/navigation";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -49,18 +49,15 @@ const Swiperr = () => {
               key={item}
             >
               <TestiCard>
-                <TestiTypo>{item.name}</TestiTypo>
-                <CompanyTypo>{item.companyName}</CompanyTypo>
                 <a target="blank" href={item.link}>
-
-                <Box my={3}>
-                  <img style={{height:"300px"}} src={item.img} alt="star" />
-                  
-                </Box>
+                  <Box my={3}>
+                    <img
+                      style={{ height: "300px" }}
+                      src={item.img}
+                      alt="star"
+                    />
+                  </Box>
                 </a>
-                <Box>
-                  <Typography>{item.desc}</Typography>
-                </Box>
               </TestiCard>
             </SwiperSlide>
           ))}

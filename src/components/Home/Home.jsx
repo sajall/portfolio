@@ -6,8 +6,7 @@ import Testimonial from "./Testimonial";
 import Technologies from "./Technologies";
 import ScrollArrow from "../ScrollArrow/ScrollArrow";
 import Footer from "../Footer/Footer";
-import { NavLink } from "react-router-dom";
-import background from "../../assets/Home/bg.png";
+import background from "../../assets/Home/bg.jpg";
 
 export default function Home() {
   const largeScreen = useMediaQuery("(min-width: 1200px)");
@@ -83,7 +82,9 @@ export default function Home() {
               <Box sx={{ display: { xs: "none", lg: "block" } }}>
                 <img
                   style={{
-                    width: "100%",
+                    width: "80%",
+                  
+                    borderRadius: "50%",
                   }}
                   src={background}
                   alt=""
