@@ -70,7 +70,7 @@ export default function Home() {
                 <AboutButton>
                   <a
                    target="blank"
-                    href="https://drive.google.com/file/d/1SLvJEXLkc5cgZdqdYd0IzQBi6U-8VwTq/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1Eg1hFYyAvng5TCHLu7eHzQYKrR5i9TLT/view?usp=drive_link"
                     style={{ color: "#ffffff", textDecoration: "none" }}
                   >
                     Resume
